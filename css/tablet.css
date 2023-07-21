@@ -1,0 +1,7 @@
+.main-section-one {
+    display: flex;
+    flex-direction: row;
+}
+.text-container-center {
+    padding: 20px;
+}

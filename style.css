@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+header {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: #F5F0EC;
+    padding: 15px;
+}
+.container-nav {
+    display: flex;
+    justify-content: space-between
+}
+.container-nav p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #D29675;
+}
+.container-nav ul {
+    display: flex;
+    list-style: none;
+}
+.container-nav ul li {
+    margin-right: 15px;
+}
+.container-nav ul li a {
+    text-decoration: none;
+    color: #D29675;
+    font-weight: 500;
+    font-size: 14px;
+}
+.header-text-center {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.header-text-center h1 {
+    color: #704F37;
+}
+.header-text-center p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.header-text-center button {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    border: none;
+}
+.header-text-center .facebook-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/725/725350.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.header-text-center .whatsapp-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/1383/1383336.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.header-text-center .twitter-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/2335/2335417.png");
+    background-size: cover;
+    background-position: center;
+}
+.header-text-center .instagram-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/725/725339.png");
+    background-size: cover;
+    background-position: center;
+}
+main {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: #E4C1A1;
+}
+.main-section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.main-container-img {
+    width: 260px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #704F37;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.main-container-img img {
+    width: 240px;
+    border-radius: 10px;
+}
+.text-container-center {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.text-container-center h2 {
+    color: #704F37;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+.text-container-center p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.0rem;
+    margin-bottom: 15px;
+}
+.container-info {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.container-info ul {
+    list-style: none;
+}
+.container-left ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #704F37;
+    font-weight: bold;
+}
+.container-rigth ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 500;
+}
+.text-container-center button {
+    width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #704F37;
+    color: #F5F0EC;
+    font-size: 12px;
+    font-weight: bold;
+}
+.main-section-two {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #e0cebf;
+}
+.main-section-two h2 {
+    margin-top: 50px;
+    color: #704F37;
+    line-height: 18px;
+}
+.main-container-service {
+    width: 70%;
+    scroll-snap-align: center;
+    min-width: 190px;
+    max-width: 300px;
+    height: 170px;
+    border-radius: 15px;
+    margin: 50px 5px;
+    background-color: #916a47;
+    box-shadow: 0 4px 8px rgba(89,73,3,0.16);
+    
+}
+.container-service img {
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+}
+.container-service h3 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.container-service p {
+    color: #e3dfdf;
+    line-height: 1.0rem;
+    font-size: 12px;
+}
+.container-cards {
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    display: flex;
+    justify-content: center;
+   
+}
